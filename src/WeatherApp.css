@@ -1,0 +1,39 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.weather-container {
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px 15px;
+  text-align: center;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  transition: background-image 0.01s ease-in-out;
+}
+
+
+
+/* Default Background */
+.default {
+  background-image:
+    url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=1920");
+}
+
+.weather-container h2 {
+  color: white;
+  font-size: 38px;
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 25px;
+}
